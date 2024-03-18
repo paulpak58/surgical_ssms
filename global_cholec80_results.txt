@@ -1,0 +1,48 @@
+/tmp/src/surgical_ncp/train.py --model lstm --backbone cnn --lr 0.001 # -1.000
+/tmp/src/surgical_ncp/train.py --model lstm --backbone cnn --lr 0.001 # -1.000
+/tmp/src/surgical_ncp/train.py --model lstm --backbone cnn --lr 0.001 # 0.718
+/tmp/src/surgical_ncp/train.py --model lstm --backbone cnn --lr 0.001 # -1.000
+/tmp/src/surgical_ncp/train.py --model lstm --backbone resnet --lr 0.001 # -1.000
+/tmp/src/surgical_ncp/train.py --model lstm --backbone resnet --lr 0.001 # -1.000
+/tmp/src/surgical_ncp/train.py --model lstm --backbone resnet --lr 0.001 # -1.000
+/tmp/src/surgical_ncp/train.py --model lstm --backbone resnet --lr 0.001 # 0.838
+/tmp/src/surgical_ncp/train.py --model cfc --backbone cnn --lr 0.001 # -1.000
+/tmp/src/surgical_ncp/train.py --model cfc --backbone cnn --lr 0.001 # 0.693
+/tmp/src/surgical_ncp/train.py --model mm_rnn --backbone cnn --lr 0.001 # -1.000
+/tmp/src/surgical_ncp/train.py --model mm_rnn --backbone cnn --lr 0.001 # 0.715
+/tmp/src/surgical_ncp/train.py --model cfc --backbone resnet --lr 0.001 # -1.000
+/tmp/src/surgical_ncp/train.py --model cfc --backbone resnet --lr 0.001 # 0.777
+/tmp/src/surgical_ncp/train.py --model mm_rnn --backbone resnet --lr 0.001 # -1.000
+/tmp/src/surgical_ncp/train.py --model mm_rnn --backbone resnet --lr 0.001 # 0.815
+/tmp/src/surgical_ncp/train.py --model cfc --backbone resnet --lr 0.001 --opt adamp # 0.760
+/tmp/src/surgical_ncp/train.py --model mm_rnn --backbone resnet --lr 0.005 # 0.569
+/tmp/src/surgical_ncp/train.py --model mm_rnn --backbone resnet --lr 0.001 --opt adamp # 0.828
+/tmp/src/surgical_ncp/train.py --model lstm --backbone resnet --lr 0.005 # 0.717
+/tmp/src/surgical_ncp/train.py --model cfc --backbone resnet --lr 0.001 --size 512 # 0.796
+/tmp/src/surgical_ncp/train.py --model cfc --backbone resnet --lr 0.005 # 0.626
+/tmp/src/surgical_ncp/train.py --model lstm --backbone resnet --lr 0.001 # 0.835
+/tmp/src/surgical_ncp/train.py --model cfc --backbone resnet --lr 0.001 --mmrnn # 0.829
+/tmp/src/surgical_ncp/train.py --model cfc --backbone resnet --lr 0.001 # 0.790
+/tmp/src/surgical_ncp/train.py --model lstm --backbone resnet --lr 0.001 --batch_size 4 # 0.796
+/tmp/src/surgical_ncp/train.py --model cfc --backbone resnet --lr 0.001 --batch_size 4 # 0.683
+/tmp/src/surgical_ncp/train.py --model cfc --backbone resnet --lr 0.001 --mmrnn --batch_size 4 # 0.794
+/home/mathias/dev/surgical_ncp/train.py --model lstm --backbone resnet --lr 0.001 --batch_size 4 # -1.000
+/home/mathias/dev/surgical_ncp/train.py --model lstm --backbone resnet --lr 0.001 --batch_size 16 # 0.988
+/home/mathias/dev/surgical_ncp/train.py --model lstm --backbone resnet --lr 0.001 --batch_size 16 # 0.989
+/home/mathias/dev/surgical_ncp/train.py --model lstm --backbone resnet --lr 0.001 --batch_size 16 # -1.000
+/home/mathias/dev/surgical_ncp/train.py --model lstm --backbone resnet --lr 0.001 --batch_size 16 # 0.990
+/home/ppak/surgical_ncp/train_resnetv2.py --model cnn --backbone resnet --lr 0.0005 --batch_size 100 --seq_len 1 --crop_mode 1 --wd 0 # -1.000
+/home/ppak/surgical_ncp/train_resnetv2.py --model cnn --backbone resnet --lr 0.0005 --batch_size 100 --seq_len 1 --crop_mode 1 --wd 0 # 0.052
+/home/ppak/surgical_ncp/train_resnetv2.py --model cnn --backbone resnet --lr 0.0005 --batch_size 100 --seq_len 1 --crop_mode 1 --wd 0 # -1.000
+/home/ppak/surgical_ncp/train_resnetv2.py --model cnn --backbone resnet --lr 0.0005 --batch_size 100 --seq_len 1 --crop_mode 1 --wd 0 --epochs 30 # 0.824
+/home/ppak/surgical_ncp/train_resnetv2.py --model cnn --backbone resnet --lr 0.0005 --batch_size 100 --seq_len 1 --crop_mode 1 --wd 0 --epochs 30 # -1.000
+/home/ppak/surgical_ncp/train_resnetv2.py --model cnn --backbone resnet --lr 0.005 --batch_size 100 --seq_len 1 --crop_mode 1 --wd 0 --epochs 30 # 0.747
+/home/ppak/surgical_ncp/train_resnetv2.py --model cnn --backbone resnet --lr 0.0005 --batch_size 100 --seq_len 1 --crop_mode 1 --wd 0 --epochs 30 # 0.827
+/home/ppak/surgical_ncp/train_resnetv2.py --model cnn --backbone resnet --lr 0.0005 --opt adam --batch_size 100 --seq_len 1 --crop_mode 1 --wd 0 --epochs 30 # 0.828
+/home/ppak/surgical_ncp/train_resnetv2.py --model cnn --backbone resnet --lr 0.0005 --opt SGD --batch_size 100 --seq_len 1 --crop_mode 1 --wd 0 --epochs 30 # 0.797
+/home/ppak/surgical_ncp/train_resnetv2.py --model cnn --backbone resnet --lr 0.0005 --opt adamw --batch_size 100 --seq_len 1 --crop_mode 1 --wd 0 --epochs 30 # 0.789
+/home/ppak/surgical_ncp/train_resnetv2.py --model cnn --backbone resnet --lr 0.00005 --opt adamw --batch_size 100 --seq_len 1 --crop_mode 1 --wd 0 --epochs 75 # 0.794
+/home/ppak/surgical_ncp/train_resnetv2.py --model cnn --backbone resnet --lr 0.0005 --opt adamw --batch_size 100 --seq_len 1 --crop_mode 1 --wd 0 --epochs 60 # -1.000
+/home/ppak/surgical_ncp/train_resnetv2.py --model cnn --backbone resnet --lr 0.0005 --opt SGD --batch_size 100 --seq_len 1 --crop_mode 1 --wd 0 --epochs 60 # -1.000
+/home/ppak/surgical_ncp/train_resnetv2.py --model cnn --backbone resnet --lr 0.0005 --opt SGD --batch_size 100 --seq_len 1 --crop_mode 1 --wd 0 --epochs 60 # 0.775
+/home/ppak/surgical_ncp/train_resnetv2.py --model cnn --backbone resnet --lr 0.00005 --opt adamw --batch_size 100 --seq_len 1 --crop_mode 1 --wd 0 --epochs 60 # 0.791

@@ -1,0 +1,32 @@
+name: surgical_ncp
+channels:
+  - pytorch
+  - conda-forge
+  - anaconda
+  - defaults
+dependencies:
+  - python=3.7.10
+  - cuda100=1.0
+  - cudatoolkit=10.2.89
+  - ipython
+  - matplotlib
+  - multidict
+  - pillow
+  - pip
+  - protobuf=3.9.1
+  - pyexcel-ods3
+  - pytorch=1.13.1
+  - tensorboard
+  - tensorboardx
+  - tensorflow
+  - torchvision
+  - tqdm
+  - pip:
+    - isort
+    - networkx
+    - opencv-python
+    - pugsql
+    - snakeviz
+    - sqlalchemy
+    - yapf
+    - pytorch-lightning=1.9.0
